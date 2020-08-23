@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: green;
+}
+
+.page-header {
+    background-color: #E480FD;
+}
+
+.page-header .top-bar {
+    color: blue;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.page-header .top-bar li {
+    list-style: none;
+}
+
+.album {
+    margin: 5px;
+    border: 1px solid #0066FF;
+    float: left;
+    width: 180rem;
+}
