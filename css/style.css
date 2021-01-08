@@ -5,27 +5,37 @@
 }
 
 .container {
-    background-color: green;
-}
-
-.page-header {
-    background-color: #E480FD;
-}
-
-.page-header .top-bar {
-    color: blue;
     display: flex;
-    align-content: center;
-    justify-content: space-evenly;
+    max-width: 960px;
+    margin: 0 auto;
 }
 
-.page-header .top-bar li {
+/* MENU */
+
+.menu {
+    background: #1A78A6;
+    padding: 15px;
+}
+
+.menu-logo {
+    margin: 0 10px;
+}
+
+.menu-nav {
+    flex: 1;
+    align-self: center;
+    margin: 0 10px;
+}
+
+.menu-nav ul {
+    display: flex;
+    float: right;
     list-style: none;
 }
 
-.album {
-    margin: 5px;
-    border: 1px solid #0066FF;
-    float: left;
-    width: 180rem;
+.menu-nav ul li a{
+    padding: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.125em;
 }
