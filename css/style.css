@@ -134,3 +134,18 @@
     align-self: center;
     text-align: justify;
 }
+
+@media (max-width: 739px) {
+    .sobre {
+        max-width: 300px;
+        margin: 60px auto;
+    }
+
+    .sobre-conteudo {
+        display: block;
+    }
+    
+    .sobre-conteudo img {
+        margin-bottom: 30px;
+    }
+}
