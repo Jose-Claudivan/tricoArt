@@ -83,3 +83,9 @@
     border-radius: 50em;
     margin-top: 30px;
 }
+
+@media (max-width: 739px) {
+    .intro {
+        padding: 60px 0 15px 0;
+    }
+}
