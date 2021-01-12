@@ -203,4 +203,55 @@
     color: #ffffff;
 }
 
+/* PREÇOS */
 
+.preços {
+    max-width: 960px;
+    margin: 90px auto;
+}
+
+.preços::before {
+    content: '';
+    display: block;
+    width: 70px;
+    height: 5px;
+    background: #FF419F;
+    margin-bottom: 30px;
+}
+
+.preços h2 {
+    color: #1A78A6;
+    font-size: 1.125em;
+}
+
+.preços h1 {
+    color: #FF419F;
+    font-size: 2.25em;
+}
+
+.preços-item {
+    margin: 60px auto;
+    background: #1A78A6;
+    padding: 30px 15px;
+    max-width: 100%;
+}
+
+.preços-item h2 {
+    color: #ffffff;
+    text-align: center;
+}
+
+.preços-item ul li {
+    list-style: none;
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.125em;
+}
+
+.preços-item ul li span::after {
+    content: '';
+    display: inline-block;
+    width: 220px;
+    height: 2px;
+    background: #2498D0;
+}
