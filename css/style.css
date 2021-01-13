@@ -280,3 +280,22 @@
     margin-right: 15px;
     filter: invert(100%);
 }
+
+/* FOOTER */
+
+.footer {
+    background: #4A91B4;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.125em;
+}
+
+.footer p {
+    padding-top: 30px;
+    color: #ffffff;
+}
+
+.footer img {
+    padding-bottom: 5px;
+}
+
