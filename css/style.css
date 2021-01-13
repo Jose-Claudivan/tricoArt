@@ -255,3 +255,28 @@
     height: 2px;
     background: #2498D0;
 }
+
+/* CONTATO */
+
+.contato {
+    display: flex;
+    background: #1A78A6;
+    padding: 60px 0;
+}
+
+.contato div {
+    margin: 0 auto;
+}
+
+.contato-informacoes a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.125em;
+    padding: 10px;
+}
+
+.contato-informacoes a img {
+    margin-right: 15px;
+    filter: invert(100%);
+}
