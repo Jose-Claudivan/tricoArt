@@ -9,7 +9,7 @@
 
 ## Introdução
 
-Esse é o projeto foi desenvolvido como forma de treinamento e aprendizado pessoal a respeito das tecnologias HTML5, CSS3 e JS, além de ser um teste do uso do GitHub Pages.
+Esse projeto foi desenvolvido como forma de treinamento e aprendizado pessoal a respeito das tecnologias HTML5, CSS3 e JS, além de ser um teste do uso do GitHub Pages.
 A ideia inicial da página é ser um local onde será possivel a divulgação e negocição de produtos feitos por uma artesã local, aumentando suas vendas e facilitando a comunicação com seus clientes.
 
 ## Aprendizado
