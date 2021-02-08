@@ -256,6 +256,25 @@
     background: #2498D0;
 }
 
+@media (max-width: 739px) {
+    .preços {
+        max-width: 300px;
+        margin: 60px auto;
+    }
+
+    .preços-item {
+        margin: 15px auto;
+    }
+
+    .preços-item ul li span::after {
+        content: '';
+        display: inline-block;
+        width: 50px;
+        height: 2px;
+        background: #2498D0;
+    }
+} 
+
 /* CONTATO */
 
 .contato {
