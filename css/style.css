@@ -304,6 +304,10 @@
     filter: invert(100%);
 }
 
+.contato-logo img{
+    max-width: 450px;
+}
+
 /* FOOTER */
 
 .footer {
@@ -320,5 +324,6 @@
 
 .footer img {
     padding-bottom: 5px;
+    max-width: 100px;
 }
 
