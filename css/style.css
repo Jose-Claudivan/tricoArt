@@ -308,6 +308,12 @@
     max-width: 450px;
 }
 
+@media (max-width: 739px) {
+    .contato-logo img{
+        max-width: 250px;
+    }
+}
+
 /* FOOTER */
 
 .footer {
@@ -327,3 +333,9 @@
     max-width: 100px;
 }
 
+@media (max-width: 739px) { 
+    .footer {
+        display: flex;
+        justify-content: space-evenly;
+    }
+} 
