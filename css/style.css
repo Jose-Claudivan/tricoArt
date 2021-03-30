@@ -81,6 +81,7 @@
 .intro a {
     display: inline-block;
     text-decoration: none;
+    font-weight: bold;
     color: #ffffff;
     text-transform: uppercase;
     background: #FF419F;
@@ -132,11 +133,8 @@
 }
 
 .sobre-conteudo img {
-    min-width: 250px;
-    height: 250px;
-    background: #616161;
-    margin-right: 15px;
-    box-shadow: -10px 10px 0 #FF419F;
+    max-width: 100em;
+    box-shadow: 10px -10px 0 #FF419F;
 }
 
 .sobre-conteudo p {
@@ -151,12 +149,27 @@
         margin: 60px auto;
     }
 
+    .sobre::before {
+        margin: 0 auto 30px auto;
+    }
+
+    .sobre h1, h2 {
+        text-align: center;
+    }
+
+    .sobre h1 {
+        font-size: 2em;
+    }
+
     .sobre-conteudo {
         display: block;
     }
-    
+
     .sobre-conteudo img {
-        margin-bottom: 30px;
+        display: none;
+        /* max-width: 50em;
+        margin-bottom: 30px; 
+        box-shadow: 10px -10px 0 #FF419F; */
     }
 }
 
@@ -172,6 +185,7 @@
     display: inline-block;
     text-decoration: none;
     text-transform: uppercase;
+    font-weight: bold;
     color: #ffffff;
     background: #FF419F;
     padding: 15px 50px;
@@ -188,7 +202,7 @@
     height: 250px;
     background: #616161;
     margin: 0 auto;
-    box-shadow: -10px 10px 0 #FF419F;
+    box-shadow: 10px -10px 0 #FF419F;
 }
 
 .produtos-item h2 {
@@ -269,6 +283,18 @@
     .preços {
         max-width: 300px;
         margin: 60px auto;
+    }
+
+    .preços::before {
+        margin: 0 auto 30px auto;
+    }
+
+    .preços h1, h2 {
+        text-align: center;
+    }
+
+    .preços h1 {
+        font-size: 2em;
     }
 
     .preços-item {
