@@ -161,6 +161,7 @@ html {
     font-size: 1.125em;
     align-self: center;
     text-align: justify;
+    margin: 1.5em;
 }
 
 @media (max-width: 739px) {
@@ -197,8 +198,13 @@ html {
 
 .produtos {
     background: #1A78A6;
-    padding: 60px 0;
+    padding: 15px 0 30px 0;
     text-align: center;
+}
+
+.produtos h1 {
+    color: #ffffff;
+    margin-bottom: 1.5em;
 }
 
 .produtos a {
@@ -213,7 +219,7 @@ html {
 }
 
 .produtos-item {
-    margin: 0 15px 60px 0;
+    margin: 0 15px 30px 0;
 }
 
 .produtos-item img {
@@ -229,16 +235,16 @@ html {
     font-size: 1.125em;
     color: #ffffff;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 15px;
 }
 
 .produtos-item h2::after {
     content: '';
     display: block;
     width: 70px;
-    height: 5px;
-    background: #FF419F;
-    margin: 15px auto;
+    height: 3px;
+    background: #67cbfd;
+    margin: 10px auto;
 
 }
 
