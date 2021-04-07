@@ -204,7 +204,7 @@ html {
 
 .produtos h1 {
     color: #ffffff;
-    margin-bottom: 1.5em;
+    margin-bottom: 0.5em;
 }
 
 .produtos a {
@@ -215,6 +215,7 @@ html {
     color: #ffffff;
     background: #FF419F;
     padding: 15px 50px;
+    margin-top: 1em;
     border-radius: 50em;
 }
 
@@ -250,6 +251,11 @@ html {
 
 .produtos-item p {
     color: #ffffff;
+}
+
+/* CARROSSEL */
+.carousel-item {
+    max-height: 30em;
 }
 
 /* PREÇOS */
