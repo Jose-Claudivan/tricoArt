@@ -301,6 +301,11 @@ html {
     text-align: center;
 }
 
+.preços-item ul {
+    margin: 0 auto;
+    padding: 0;
+}
+
 .preços-item ul li {
     list-style: none;
     color: #ffffff;
@@ -311,7 +316,7 @@ html {
 .preços-item ul li span::after {
     content: '';
     display: inline-block;
-    width: 220px;
+    width: 200px;
     height: 2px;
     background: #2498D0;
 }
