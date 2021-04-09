@@ -20,6 +20,10 @@ html {
         flex-direction: column;
         max-width: 300px;
     }
+
+    .background-image {
+        height: 100vh;
+    }
 }
 
 .background-image{
@@ -167,6 +171,7 @@ html {
 @media (max-width: 739px) {
     .sobre {
         max-width: 300px;
+        height: 100vh;
         margin: 60px auto;
     }
 
@@ -333,11 +338,25 @@ html {
         margin: 15px auto;
     }
 
+    .preços-item ul {
+        margin: 0 auto;
+        padding: 0;
+    }
+
     .preços-item ul li span::after {
         content: '';
-        display: inline-block;
-        width: 50px;
+        display: none;
+        width: 80px;
         height: 2px;
+        background: #2498D0;
+    }
+
+    .preços-item ul li::after {
+        content: '';
+        display: block;
+        width: 240px;
+        height: 2px;
+        margin: 0 auto;
         background: #2498D0;
     }
 } 
