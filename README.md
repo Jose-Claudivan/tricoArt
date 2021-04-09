@@ -6,7 +6,6 @@
 * [Aprendizado](#aprendizado)
 * [Tecnologias](#tecnologias)
 * [Resultado](#resultado)
-
 ## Introdução
 
 Esse projeto foi desenvolvido como forma de treinamento e aprendizado pessoal a respeito das tecnologias HTML5 e CSS3, além de ser um teste do uso do GitHub Pages.
